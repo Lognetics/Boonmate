@@ -1,0 +1,19 @@
+{
+  "app": { "name": "Boonmate", "tagline": "사람을 잇는 OS" },
+  "tabs": { "home": "홈", "connect": "연결", "events": "이벤트", "chat": "채팅", "me": "마이" },
+  "common": {
+    "continue": "계속", "next": "다음", "back": "뒤로", "skip": "건너뛰기", "save": "저장",
+    "cancel": "취소", "done": "완료", "join": "참여", "leave": "나가기", "connect": "연결",
+    "connected": "연결됨", "message": "메시지", "search": "검색", "post": "게시", "edit": "수정",
+    "accept": "동의하고 참여", "decline": "거절", "all": "전체", "loading": "로딩 중…"
+  },
+  "home": { "good_morning": "좋은 아침", "good_afternoon": "안녕하세요", "good_evening": "좋은 저녁",
+    "share_prompt": "커뮤니티에 무언가 공유해요…", "suggested": "당신을 위한 추천", "daily_insight": "오늘의 한마디", "chat_with_boon": "Boon AI와 채팅" },
+  "connect": { "title": "연결", "circles": "서클", "people": "사람", "members": "명" },
+  "events": { "title": "이벤트", "create": "만들기" },
+  "chat": { "title": "메시지", "type_message": "메시지 입력…" },
+  "profile": { "title": "프로필", "settings": "설정" },
+  "settings": { "title": "설정", "language": "언어", "light_mode": "라이트", "dark_mode": "다크",
+    "anonymous": "익명 모드", "subscription": "구독", "logout": "로그아웃" },
+  "subscription": { "title": "플랜 선택", "current": "현재", "select": "선택", "month": "/월" }
+}

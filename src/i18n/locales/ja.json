@@ -1,0 +1,19 @@
+{
+  "app": { "name": "Boonmate", "tagline": "人と人をつなぐOS" },
+  "tabs": { "home": "ホーム", "connect": "つながる", "events": "イベント", "chat": "チャット", "me": "マイ" },
+  "common": {
+    "continue": "続ける", "next": "次へ", "back": "戻る", "skip": "スキップ", "save": "保存",
+    "cancel": "キャンセル", "done": "完了", "join": "参加", "leave": "退出", "connect": "つながる",
+    "connected": "つながった", "message": "メッセージ", "search": "検索", "post": "投稿", "edit": "編集",
+    "accept": "同意して参加", "decline": "拒否", "all": "すべて", "loading": "読み込み中…"
+  },
+  "home": { "good_morning": "おはよう", "good_afternoon": "こんにちは", "good_evening": "こんばんは",
+    "share_prompt": "コミュニティと何かをシェア…", "suggested": "あなたへのおすすめ", "daily_insight": "今日のひとこと", "chat_with_boon": "Boon AIとチャット" },
+  "connect": { "title": "つながる", "circles": "サークル", "people": "ひと", "members": "メンバー" },
+  "events": { "title": "イベント", "create": "作成" },
+  "chat": { "title": "メッセージ", "type_message": "メッセージを入力…" },
+  "profile": { "title": "プロフィール", "settings": "設定" },
+  "settings": { "title": "設定", "language": "言語", "light_mode": "ライト", "dark_mode": "ダーク",
+    "anonymous": "匿名モード", "subscription": "サブスクリプション", "logout": "ログアウト" },
+  "subscription": { "title": "プランを選ぶ", "current": "現在", "select": "選択", "month": "/月" }
+}

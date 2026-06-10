@@ -1,0 +1,73 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    // Users: anyone signed in can read profiles, only the owner can write their own doc.
+    match /users/{userId} {
+      allow read: if isSignedIn();
+      allow create, update: if isOwner(userId);
+      allow delete: if false;
+    }
+
+    // Posts: any signed-in user can read; only the author can update/delete; create requires authorId == uid.
+    match /posts/{postId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && request.resource.data.authorId == request.auth.uid;
+      allow update: if isSignedIn() && (
+        // Author can edit own post
+        resource.data.authorId == request.auth.uid ||
+        // Anyone signed in can update the like counter + likedBy array
+        (request.resource.data.diff(resource.data).affectedKeys()
+          .hasOnly(['likes', 'likedBy', 'comments']))
+      );
+      allow delete: if isSignedIn() && resource.data.authorId == request.auth.uid;
+    }
+
+    // Circles: readable by anyone signed in; member counters / arrays updatable; only admins (via custom claim) can edit metadata.
+    match /circles/{circleId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn();
+      allow update: if isSignedIn() && (
+        request.resource.data.diff(resource.data).affectedKeys()
+          .hasOnly(['members', 'memberIds'])
+      );
+      allow delete: if false;
+    }
+
+    // Events: readable by anyone signed in; creator can edit/delete.
+    match /events/{eventId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && request.resource.data.organizerId == request.auth.uid;
+      allow update, delete: if isSignedIn() && resource.data.organizerId == request.auth.uid;
+    }
+
+    // Chats: only participants can read/write the chat doc and its sub-collection messages.
+    match /chats/{chatId} {
+      allow read, update, create: if isSignedIn() && request.auth.uid in request.resource.data.participantIds;
+      allow read: if isSignedIn() && request.auth.uid in resource.data.participantIds;
+
+      match /messages/{messageId} {
+        allow read: if isSignedIn() && request.auth.uid in get(/databases/$(database)/documents/chats/$(chatId)).data.participantIds;
+        allow create: if isSignedIn()
+          && request.resource.data.fromId == request.auth.uid
+          && request.auth.uid in get(/databases/$(database)/documents/chats/$(chatId)).data.participantIds;
+        allow update, delete: if isSignedIn() && resource.data.fromId == request.auth.uid;
+      }
+    }
+
+    // Notifications: per-user inbox.
+    match /notifications/{userId}/items/{itemId} {
+      allow read, update, delete: if isOwner(userId);
+      allow create: if isSignedIn();
+    }
+  }
+}

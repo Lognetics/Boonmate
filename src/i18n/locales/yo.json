@@ -1,0 +1,19 @@
+{
+  "app": { "name": "Boonmate", "tagline": "Ètò Ìsopọ̀ Ènìyàn" },
+  "tabs": { "home": "Ilé", "connect": "Sopọ̀", "events": "Ìṣẹ̀lẹ̀", "chat": "Ìbánisọ̀rọ̀", "me": "Èmi" },
+  "common": {
+    "continue": "Tẹsiwaju", "next": "Tókàn", "back": "Padà", "skip": "Fò", "save": "Tọju",
+    "cancel": "Fagilé", "done": "Tán", "join": "Darapọ̀", "leave": "Jáde", "connect": "Sopọ̀",
+    "connected": "A sopọ̀", "message": "Ìfiránṣẹ́", "search": "Wá", "post": "Tẹjáde", "edit": "Ṣàtúnṣe",
+    "accept": "Gba kí o sì darapọ̀", "decline": "Kọ̀", "all": "Gbogbo rẹ̀", "loading": "Ń gbé jáde…"
+  },
+  "home": { "good_morning": "Ẹ kú àárọ̀", "good_afternoon": "Ẹ kú ọsán", "good_evening": "Ẹ kú alẹ́",
+    "share_prompt": "Pín ohun kan pẹ̀lú àgbáyé rẹ…", "suggested": "Àbá fún ọ", "daily_insight": "Ìfáàrà ọjọ́", "chat_with_boon": "Bá Boon AI sọ̀rọ̀" },
+  "connect": { "title": "Sopọ̀", "circles": "Àyíká", "people": "Ènìyàn", "members": "ọmọ ẹgbẹ́" },
+  "events": { "title": "Ìṣẹ̀lẹ̀", "create": "Ṣẹ̀dá" },
+  "chat": { "title": "Ìfiránṣẹ́", "type_message": "Kọ ìfiránṣẹ́…" },
+  "profile": { "title": "Profáìlì", "settings": "Ètò" },
+  "settings": { "title": "Ètò", "language": "Èdè", "light_mode": "Ìmọ́lẹ̀", "dark_mode": "Òkùnkùn",
+    "anonymous": "Ìpamọ́", "subscription": "Ìfowó-sí", "logout": "Jáde" },
+  "subscription": { "title": "Yan ètò rẹ", "current": "Lọwọ́lọ́wọ́", "select": "Yan", "month": "/oṣù" }
+}

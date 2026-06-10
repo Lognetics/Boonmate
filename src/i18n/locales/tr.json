@@ -1,0 +1,19 @@
+{
+  "app": { "name": "Boonmate", "tagline": "İnsan Bağlantısı OS" },
+  "tabs": { "home": "Ana Sayfa", "connect": "Bağlan", "events": "Etkinlikler", "chat": "Sohbet", "me": "Ben" },
+  "common": {
+    "continue": "Devam", "next": "İleri", "back": "Geri", "skip": "Atla", "save": "Kaydet",
+    "cancel": "İptal", "done": "Tamam", "join": "Katıl", "leave": "Ayrıl", "connect": "Bağlan",
+    "connected": "Bağlandı", "message": "Mesaj", "search": "Ara", "post": "Paylaş", "edit": "Düzenle",
+    "accept": "Kabul et ve katıl", "decline": "Reddet", "all": "Hepsi", "loading": "Yükleniyor…"
+  },
+  "home": { "good_morning": "Günaydın", "good_afternoon": "İyi günler", "good_evening": "İyi akşamlar",
+    "share_prompt": "Topluluğunla bir şey paylaş…", "suggested": "Senin için öneriler", "daily_insight": "Günün ipucu", "chat_with_boon": "Boon AI ile konuş" },
+  "connect": { "title": "Bağlan", "circles": "Çevreler", "people": "İnsanlar", "members": "üye" },
+  "events": { "title": "Etkinlikler", "create": "Oluştur" },
+  "chat": { "title": "Mesajlar", "type_message": "Mesaj yaz…" },
+  "profile": { "title": "Profil", "settings": "Ayarlar" },
+  "settings": { "title": "Ayarlar", "language": "Dil", "light_mode": "Açık", "dark_mode": "Koyu",
+    "anonymous": "Anonim mod", "subscription": "Abonelik", "logout": "Çıkış" },
+  "subscription": { "title": "Planını seç", "current": "Mevcut", "select": "Seç", "month": "/ay" }
+}

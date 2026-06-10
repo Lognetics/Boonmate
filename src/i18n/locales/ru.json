@@ -1,0 +1,19 @@
+{
+  "app": { "name": "Boonmate", "tagline": "ОС человеческих связей" },
+  "tabs": { "home": "Главная", "connect": "Связи", "events": "События", "chat": "Чат", "me": "Я" },
+  "common": {
+    "continue": "Продолжить", "next": "Далее", "back": "Назад", "skip": "Пропустить", "save": "Сохранить",
+    "cancel": "Отмена", "done": "Готово", "join": "Вступить", "leave": "Выйти", "connect": "Связаться",
+    "connected": "Подключено", "message": "Сообщение", "search": "Поиск", "post": "Опубликовать", "edit": "Изменить",
+    "accept": "Согласиться и вступить", "decline": "Отказаться", "all": "Все", "loading": "Загрузка…"
+  },
+  "home": { "good_morning": "Доброе утро", "good_afternoon": "Добрый день", "good_evening": "Добрый вечер",
+    "share_prompt": "Поделитесь с сообществом…", "suggested": "Подобрано для вас", "daily_insight": "Мысль дня", "chat_with_boon": "Чат с Boon AI" },
+  "connect": { "title": "Связи", "circles": "Кружки", "people": "Люди", "members": "участников" },
+  "events": { "title": "События", "create": "Создать" },
+  "chat": { "title": "Сообщения", "type_message": "Напишите сообщение…" },
+  "profile": { "title": "Профиль", "settings": "Настройки" },
+  "settings": { "title": "Настройки", "language": "Язык", "light_mode": "Светлая", "dark_mode": "Тёмная",
+    "anonymous": "Анонимный режим", "subscription": "Подписка", "logout": "Выйти" },
+  "subscription": { "title": "Выберите план", "current": "Текущий", "select": "Выбрать", "month": "/мес" }
+}

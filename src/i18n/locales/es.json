@@ -1,0 +1,23 @@
+{
+  "app": { "name": "Boonmate", "tagline": "SO de la Conexión Humana" },
+  "tabs": { "home": "Inicio", "connect": "Conectar", "events": "Eventos", "chat": "Chat", "me": "Yo" },
+  "common": {
+    "continue": "Continuar", "next": "Siguiente", "back": "Atrás", "skip": "Omitir", "save": "Guardar",
+    "cancel": "Cancelar", "done": "Listo", "join": "Unirse", "leave": "Salir", "connect": "Conectar",
+    "connected": "Conectado", "message": "Mensaje", "search": "Buscar", "post": "Publicar", "edit": "Editar",
+    "share": "Compartir", "delete": "Eliminar", "report": "Reportar", "accept": "Aceptar y unirse",
+    "decline": "Rechazar", "all": "Todo", "loading": "Cargando…", "see_all": "Ver todo", "refresh": "Actualizar"
+  },
+  "onboarding": { "welcome_title": "Bienvenido a Boonmate", "welcome_sub": "Un espacio seguro para hacer amigos y conectar de verdad.",
+    "get_started": "Empezar", "have_account": "Ya tengo una cuenta", "language_title": "Elige tu idioma", "finish": "Entrar a Boonmate" },
+  "home": { "good_morning": "Buenos días", "good_afternoon": "Buenas tardes", "good_evening": "Buenas noches",
+    "share_prompt": "Comparte algo con tu comunidad…", "suggested": "Sugerencias para ti", "mutual": "en común", "daily_insight": "Idea del día", "chat_with_boon": "Chatear con Boon AI" },
+  "connect": { "title": "Conectar", "sub": "Descubre tu gente y comunidades", "circles": "Círculos", "people": "Personas",
+    "find_my_people": "Encontrar mi gente", "members": "miembros", "mutual_connections": "conexiones en común" },
+  "events": { "title": "Eventos", "sub": "Descubre encuentros cerca de ti", "create": "Crear" },
+  "chat": { "title": "Mensajes", "sub": "Tus conversaciones", "type_message": "Escribe un mensaje…", "suggested_topics": "Temas sugeridos" },
+  "profile": { "title": "Perfil", "edit": "Editar perfil", "available": "Disponible", "settings": "Ajustes" },
+  "settings": { "title": "Ajustes", "language": "Idioma", "light_mode": "Modo claro", "dark_mode": "Modo oscuro",
+    "anonymous": "Modo anónimo", "subscription": "Suscripción", "logout": "Cerrar sesión" },
+  "subscription": { "title": "Elige tu plan", "current": "Actual", "select": "Seleccionar", "month": "/mes" }
+}

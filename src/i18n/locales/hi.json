@@ -1,0 +1,19 @@
+{
+  "app": { "name": "Boonmate", "tagline": "मानवीय जुड़ाव का OS" },
+  "tabs": { "home": "होम", "connect": "कनेक्ट", "events": "इवेंट्स", "chat": "चैट", "me": "मैं" },
+  "common": {
+    "continue": "जारी रखें", "next": "अगला", "back": "वापस", "skip": "छोड़ें", "save": "सहेजें",
+    "cancel": "रद्द करें", "done": "हो गया", "join": "जुड़ें", "leave": "छोड़ें", "connect": "कनेक्ट",
+    "connected": "कनेक्टेड", "message": "संदेश", "search": "खोजें", "post": "पोस्ट", "edit": "संपादित करें",
+    "accept": "स्वीकार करें और जुड़ें", "decline": "अस्वीकार", "all": "सभी", "loading": "लोड हो रहा है…"
+  },
+  "home": { "good_morning": "सुप्रभात", "good_afternoon": "नमस्ते", "good_evening": "शुभ संध्या",
+    "share_prompt": "अपने समुदाय के साथ कुछ साझा करें…", "suggested": "आपके लिए सुझाव", "daily_insight": "दैनिक इनसाइट", "chat_with_boon": "Boon AI से चैट" },
+  "connect": { "title": "कनेक्ट", "circles": "सर्किल", "people": "लोग", "members": "सदस्य" },
+  "events": { "title": "इवेंट्स", "create": "बनाएं" },
+  "chat": { "title": "संदेश", "type_message": "संदेश लिखें…" },
+  "profile": { "title": "प्रोफ़ाइल", "settings": "सेटिंग्स" },
+  "settings": { "title": "सेटिंग्स", "language": "भाषा", "light_mode": "लाइट मोड", "dark_mode": "डार्क मोड",
+    "anonymous": "गुमनाम मोड", "subscription": "सदस्यता", "logout": "लॉग आउट" },
+  "subscription": { "title": "अपनी योजना चुनें", "current": "मौजूदा", "select": "चुनें", "month": "/महीना" }
+}

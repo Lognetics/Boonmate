@@ -1,0 +1,19 @@
+{
+  "app": { "name": "Boonmate", "tagline": "Betriebssystem für menschliche Verbindung" },
+  "tabs": { "home": "Start", "connect": "Verbinden", "events": "Events", "chat": "Chat", "me": "Ich" },
+  "common": {
+    "continue": "Weiter", "next": "Weiter", "back": "Zurück", "skip": "Überspringen", "save": "Speichern",
+    "cancel": "Abbrechen", "done": "Fertig", "join": "Beitreten", "leave": "Verlassen", "connect": "Verbinden",
+    "connected": "Verbunden", "message": "Nachricht", "search": "Suchen", "post": "Posten", "edit": "Bearbeiten",
+    "accept": "Akzeptieren & beitreten", "decline": "Ablehnen", "all": "Alle", "loading": "Lädt…"
+  },
+  "home": { "good_morning": "Guten Morgen", "good_afternoon": "Guten Tag", "good_evening": "Guten Abend",
+    "share_prompt": "Teile etwas mit deiner Community…", "suggested": "Für dich", "daily_insight": "Heutiger Impuls", "chat_with_boon": "Mit Boon AI chatten" },
+  "connect": { "title": "Verbinden", "circles": "Kreise", "people": "Menschen", "members": "Mitglieder" },
+  "events": { "title": "Events", "create": "Erstellen" },
+  "chat": { "title": "Nachrichten", "type_message": "Nachricht schreiben…" },
+  "profile": { "title": "Profil", "settings": "Einstellungen" },
+  "settings": { "title": "Einstellungen", "language": "Sprache", "light_mode": "Hell", "dark_mode": "Dunkel",
+    "anonymous": "Anonymer Modus", "subscription": "Abo", "logout": "Abmelden" },
+  "subscription": { "title": "Wähle deinen Plan", "current": "Aktuell", "select": "Wählen", "month": "/Monat" }
+}

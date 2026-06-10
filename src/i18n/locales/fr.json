@@ -1,0 +1,31 @@
+{
+  "app": { "name": "Boonmate", "tagline": "OS de la connexion humaine" },
+  "tabs": { "home": "Accueil", "connect": "Connecter", "events": "Événements", "chat": "Chat", "me": "Moi" },
+  "common": {
+    "continue": "Continuer", "next": "Suivant", "back": "Retour", "skip": "Passer", "save": "Enregistrer",
+    "cancel": "Annuler", "done": "Terminé", "join": "Rejoindre", "leave": "Quitter", "connect": "Connecter",
+    "connected": "Connecté", "message": "Message", "search": "Rechercher", "post": "Publier", "edit": "Modifier",
+    "share": "Partager", "delete": "Supprimer", "report": "Signaler", "accept": "Accepter et rejoindre",
+    "decline": "Refuser", "all": "Tout", "loading": "Chargement…", "see_all": "Tout voir", "refresh": "Actualiser"
+  },
+  "onboarding": {
+    "welcome_title": "Bienvenue sur Boonmate",
+    "welcome_sub": "Un espace sûr pour se faire des amis, rejoindre des cercles et créer du vrai lien.",
+    "get_started": "Commencer", "have_account": "J'ai déjà un compte",
+    "interests": "Vos centres d'intérêt", "intent": "Pourquoi êtes-vous ici ?",
+    "language_title": "Choisissez votre langue", "language_sub": "Modifiable à tout moment dans Paramètres.",
+    "finish": "Entrer sur Boonmate"
+  },
+  "home": { "good_morning": "Bonjour", "good_afternoon": "Bon après-midi", "good_evening": "Bonsoir",
+    "share_prompt": "Partagez quelque chose avec votre communauté…",
+    "suggested": "Suggéré pour vous", "mutual": "en commun", "daily_insight": "Inspiration du jour", "chat_with_boon": "Chatter avec Boon AI"
+  },
+  "connect": { "title": "Connecter", "sub": "Découvrez vos personnes et communautés", "circles": "Cercles", "people": "Personnes",
+    "find_my_people": "Trouver mes personnes", "ai_suggestions": "Suggestions Boon AI", "members": "membres", "mutual_connections": "connexions communes" },
+  "events": { "title": "Événements", "sub": "Découvrez des rencontres près de chez vous", "create": "Créer", "filters": "Filtrer", "reset": "Réinitialiser" },
+  "chat": { "title": "Messages", "sub": "Vos conversations", "type_message": "Écrire un message…", "suggested_topics": "Sujets suggérés" },
+  "profile": { "title": "Profil", "edit": "Modifier le profil", "available": "Disponible", "settings": "Paramètres" },
+  "settings": { "title": "Paramètres", "language": "Langue", "appearance": "Apparence", "light_mode": "Mode clair", "dark_mode": "Mode sombre",
+    "anonymous": "Mode anonyme", "subscription": "Abonnement", "logout": "Se déconnecter" },
+  "subscription": { "title": "Choisissez votre formule", "current": "Actuel", "select": "Sélectionner", "month": "/mois" }
+}

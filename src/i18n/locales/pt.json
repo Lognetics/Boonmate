@@ -1,0 +1,20 @@
+{
+  "app": { "name": "Boonmate", "tagline": "SO da Conexão Humana" },
+  "tabs": { "home": "Início", "connect": "Conectar", "events": "Eventos", "chat": "Chat", "me": "Eu" },
+  "common": {
+    "continue": "Continuar", "next": "Próximo", "back": "Voltar", "skip": "Pular", "save": "Salvar",
+    "cancel": "Cancelar", "done": "Concluído", "join": "Entrar", "leave": "Sair", "connect": "Conectar",
+    "connected": "Conectado", "message": "Mensagem", "search": "Buscar", "post": "Publicar", "edit": "Editar",
+    "share": "Compartilhar", "delete": "Excluir", "report": "Denunciar", "accept": "Aceitar e entrar",
+    "decline": "Recusar", "all": "Todos", "loading": "Carregando…", "see_all": "Ver tudo", "refresh": "Atualizar"
+  },
+  "home": { "good_morning": "Bom dia", "good_afternoon": "Boa tarde", "good_evening": "Boa noite",
+    "share_prompt": "Compartilhe algo com sua comunidade…", "suggested": "Sugestões para você", "daily_insight": "Insight diário", "chat_with_boon": "Conversar com Boon AI" },
+  "connect": { "title": "Conectar", "sub": "Descubra suas pessoas e comunidades", "circles": "Círculos", "people": "Pessoas", "members": "membros" },
+  "events": { "title": "Eventos", "sub": "Descubra encontros perto de você", "create": "Criar" },
+  "chat": { "title": "Mensagens", "sub": "Suas conversas", "type_message": "Digite uma mensagem…" },
+  "profile": { "title": "Perfil", "edit": "Editar perfil", "settings": "Configurações" },
+  "settings": { "title": "Configurações", "language": "Idioma", "light_mode": "Modo claro", "dark_mode": "Modo escuro",
+    "anonymous": "Modo anônimo", "subscription": "Assinatura", "logout": "Sair" },
+  "subscription": { "title": "Escolha seu plano", "current": "Atual", "select": "Selecionar", "month": "/mês" }
+}

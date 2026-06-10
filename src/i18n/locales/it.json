@@ -1,0 +1,19 @@
+{
+  "app": { "name": "Boonmate", "tagline": "SO della Connessione Umana" },
+  "tabs": { "home": "Home", "connect": "Connetti", "events": "Eventi", "chat": "Chat", "me": "Io" },
+  "common": {
+    "continue": "Continua", "next": "Avanti", "back": "Indietro", "skip": "Salta", "save": "Salva",
+    "cancel": "Annulla", "done": "Fatto", "join": "Unisciti", "leave": "Esci", "connect": "Connetti",
+    "connected": "Connesso", "message": "Messaggio", "search": "Cerca", "post": "Pubblica", "edit": "Modifica",
+    "accept": "Accetta e unisciti", "decline": "Rifiuta", "all": "Tutti", "loading": "Caricamento…"
+  },
+  "home": { "good_morning": "Buongiorno", "good_afternoon": "Buon pomeriggio", "good_evening": "Buonasera",
+    "share_prompt": "Condividi qualcosa con la tua comunità…", "suggested": "Per te", "daily_insight": "Pensiero del giorno", "chat_with_boon": "Chatta con Boon AI" },
+  "connect": { "title": "Connetti", "circles": "Cerchi", "people": "Persone", "members": "membri" },
+  "events": { "title": "Eventi", "create": "Crea" },
+  "chat": { "title": "Messaggi", "type_message": "Scrivi un messaggio…" },
+  "profile": { "title": "Profilo", "settings": "Impostazioni" },
+  "settings": { "title": "Impostazioni", "language": "Lingua", "light_mode": "Chiaro", "dark_mode": "Scuro",
+    "anonymous": "Modalità anonima", "subscription": "Abbonamento", "logout": "Esci" },
+  "subscription": { "title": "Scegli il tuo piano", "current": "Attuale", "select": "Seleziona", "month": "/mese" }
+}

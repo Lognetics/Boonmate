@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Boonmate",
+    "slug": "boonmate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "boonmate",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#EC4899"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.boonmate.boonmate",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Boonmate uses the microphone for voice chat with Boon AI.",
+        "NSPhotoLibraryUsageDescription": "Boonmate needs access to your photo library to update your profile and share posts.",
+        "NSCameraUsageDescription": "Boonmate uses the camera to capture photos for your profile and posts."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#EC4899"
+      },
+      "package": "app.boonmate.boonmate",
+      "permissions": ["RECORD_AUDIO", "CAMERA", "READ_EXTERNAL_STORAGE"]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-localization",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Boonmate needs access to your photos to update your profile and share posts."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": { "projectId": "boonmate-local" }
+    }
+  }
+}

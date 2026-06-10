@@ -1,0 +1,16 @@
+node_modules/
+.expo/
+dist/
+.env
+.env.local
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.DS_Store
+.idea/
+.vscode/
+ios/
+android/
+web-build/
+*.tsbuildinfo

@@ -1,0 +1,28 @@
+{
+  "app": { "name": "Boonmate", "tagline": "نظام التواصل الإنساني" },
+  "tabs": { "home": "الرئيسية", "connect": "تواصل", "events": "الفعاليات", "chat": "المحادثات", "me": "أنا" },
+  "common": {
+    "continue": "متابعة", "next": "التالي", "back": "رجوع", "skip": "تخطي", "save": "حفظ",
+    "cancel": "إلغاء", "done": "تم", "join": "انضمام", "leave": "مغادرة", "connect": "تواصل",
+    "connected": "متصل", "message": "رسالة", "search": "بحث", "post": "نشر", "edit": "تعديل",
+    "share": "مشاركة", "delete": "حذف", "report": "إبلاغ", "accept": "موافق وانضمام",
+    "decline": "رفض", "all": "الكل", "loading": "جارٍ التحميل…", "see_all": "عرض الكل", "refresh": "تحديث"
+  },
+  "onboarding": {
+    "welcome_title": "مرحباً بك في Boonmate",
+    "welcome_sub": "مساحة آمنة لتكوين صداقات والانضمام إلى الدوائر والتواصل الحقيقي.",
+    "get_started": "ابدأ الآن", "have_account": "لدي حساب بالفعل",
+    "language_title": "اختر لغتك", "language_sub": "يمكنك تغييرها في أي وقت من الإعدادات.",
+    "finish": "ادخل إلى Boonmate"
+  },
+  "home": { "good_morning": "صباح الخير", "good_afternoon": "مساء الخير", "good_evening": "مساء الخير",
+    "share_prompt": "شارك شيئاً مع مجتمعك…", "suggested": "مقترح لك", "mutual": "مشترك", "daily_insight": "نصيحة اليوم", "chat_with_boon": "تحدث مع Boon AI" },
+  "connect": { "title": "تواصل", "sub": "اكتشف أناسك ومجتمعاتك", "circles": "الدوائر", "people": "الأشخاص",
+    "find_my_people": "ابحث عن أناسي", "members": "عضواً", "mutual_connections": "علاقات مشتركة" },
+  "events": { "title": "الفعاليات", "sub": "اكتشف لقاءات قريبة منك", "create": "إنشاء", "filters": "تصفية", "reset": "إعادة" },
+  "chat": { "title": "الرسائل", "sub": "محادثاتك", "type_message": "اكتب رسالة…", "suggested_topics": "مواضيع مقترحة" },
+  "profile": { "title": "الملف الشخصي", "edit": "تعديل الملف", "available": "متاح", "settings": "الإعدادات" },
+  "settings": { "title": "الإعدادات", "language": "اللغة", "appearance": "المظهر", "light_mode": "الوضع الفاتح", "dark_mode": "الوضع الداكن",
+    "anonymous": "الوضع المجهول", "subscription": "الاشتراك", "logout": "تسجيل الخروج" },
+  "subscription": { "title": "اختر خطتك", "current": "الحالية", "select": "اختيار", "month": "/شهر" }
+}

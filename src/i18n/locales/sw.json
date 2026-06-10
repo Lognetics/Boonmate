@@ -1,0 +1,19 @@
+{
+  "app": { "name": "Boonmate", "tagline": "Mfumo wa Muunganiko wa Kibinadamu" },
+  "tabs": { "home": "Mwanzo", "connect": "Unganisha", "events": "Hafla", "chat": "Mazungumzo", "me": "Mimi" },
+  "common": {
+    "continue": "Endelea", "next": "Endelea", "back": "Rudi", "skip": "Ruka", "save": "Hifadhi",
+    "cancel": "Ghairi", "done": "Imekamilika", "join": "Jiunge", "leave": "Ondoka", "connect": "Unganisha",
+    "connected": "Mmeunganishwa", "message": "Ujumbe", "search": "Tafuta", "post": "Chapisha", "edit": "Hariri",
+    "accept": "Kubali na jiunge", "decline": "Kataa", "all": "Yote", "loading": "Inapakia…"
+  },
+  "home": { "good_morning": "Habari za asubuhi", "good_afternoon": "Habari za mchana", "good_evening": "Habari za jioni",
+    "share_prompt": "Shiriki kitu na jamii yako…", "suggested": "Iliyopendekezwa", "daily_insight": "Wazo la siku", "chat_with_boon": "Zungumza na Boon AI" },
+  "connect": { "title": "Unganisha", "circles": "Miduara", "people": "Watu", "members": "wanachama" },
+  "events": { "title": "Hafla", "create": "Tengeneza" },
+  "chat": { "title": "Ujumbe", "type_message": "Andika ujumbe…" },
+  "profile": { "title": "Wasifu", "settings": "Mipangilio" },
+  "settings": { "title": "Mipangilio", "language": "Lugha", "light_mode": "Mwanga", "dark_mode": "Giza",
+    "anonymous": "Hali ya kisiri", "subscription": "Usajili", "logout": "Toka" },
+  "subscription": { "title": "Chagua mpango wako", "current": "Wa sasa", "select": "Chagua", "month": "/mwezi" }
+}
